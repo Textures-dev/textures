@@ -166,6 +166,6 @@ The MIT licence covers the free Textures only. Pro Textures are not in this repo
 
 ## More
 
-- The full catalog, 39 Textures and growing: https://textures.dev
+- The full catalog, 40+ Textures and growing: https://textures.dev
 - A Next.js starter with a Texture in the hero: https://github.com/Textures-dev/next-starter
 - The Claude Code plugin: https://github.com/Textures-dev/plugins
