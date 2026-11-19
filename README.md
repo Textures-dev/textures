@@ -2,6 +2,8 @@
 
 Hover textures for React, one file each. Free and open source: install with the shadcn CLI or let your agent do it.
 
+[![Star Textures on GitHub](https://img.shields.io/badge/Star-on%20GitHub-111?style=flat&logo=github)](https://github.com/Textures-dev/textures)
+
 <table>
   <tr>
     <td align="center" width="33%"><a href="https://textures.dev/s/settle"><img src="clips/settle.gif" alt="Settle: Twenty columns of thin bars, denser toward the floor on the left and the ceiling on the right. Under the pointer the bars gather toward it along their columns and relax when it leaves." width="100%"></a><br><sub><b>Settle</b></sub></td>
@@ -66,7 +68,13 @@ Or by name, through the `@textures` namespace. Add the registry to your `compone
 npx shadcn@latest add @textures/settle
 ```
 
-Both forms write the same file. The full URL needs no `components.json`; the namespace needs one (`npx shadcn@latest init` creates it).
+Or straight from this repository, with nothing to set up:
+
+```sh
+npx shadcn@latest add Textures-dev/textures/settle
+```
+
+All three forms write the same file. The full URL and the GitHub address need no `components.json`; the namespace needs one (`npx shadcn@latest init` creates it).
 
 Every Texture takes the same three props:
 
