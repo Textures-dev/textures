@@ -11,7 +11,14 @@
       "description": "Twenty columns of thin bars, denser toward the floor on the left and the ceiling on the right. Under the pointer the bars gather toward it along their columns and relax when it leaves.",
       "meta": {
         "free": true
-      }
+      },
+      "files": [
+        {
+          "path": "components/textures/settle.tsx",
+          "type": "registry:file",
+          "target": "components/textures/settle.tsx"
+        }
+      ]
     },
     {
       "name": "magnet",
@@ -20,7 +27,14 @@
       "description": "A field of small dots. The pointer is a magnet: the twenty-five nearest dots leave their cells and snap together into one solid block under it, then spring back out when it moves on or leaves.",
       "meta": {
         "free": true
-      }
+      },
+      "files": [
+        {
+          "path": "components/textures/magnet.tsx",
+          "type": "registry:file",
+          "target": "components/textures/magnet.tsx"
+        }
+      ]
     },
     {
       "name": "swell",
@@ -29,7 +43,14 @@
       "description": "Eighteen columns of hairline dashes in equal-gap stacks. Under the pointer the dashes thicken into a diamond-shaped bump that squeezes its neighbours; the grid flattens when it leaves.",
       "meta": {
         "free": true
-      }
+      },
+      "files": [
+        {
+          "path": "components/textures/swell.tsx",
+          "type": "registry:file",
+          "target": "components/textures/swell.tsx"
+        }
+      ]
     },
     {
       "name": "lift",
@@ -38,7 +59,14 @@
       "description": "A field of small white containers, each holding a dark circle resting in its corner. The pointer pulls the circles toward it like a magnet, with a wide reach.",
       "meta": {
         "free": true
-      }
+      },
+      "files": [
+        {
+          "path": "components/textures/lift.tsx",
+          "type": "registry:file",
+          "target": "components/textures/lift.tsx"
+        }
+      ]
     },
     {
       "name": "beam",
@@ -47,7 +75,14 @@
       "description": "A field of hairlines. The pointer carries a beam across them: the lines under it swell into bars and part to make room, and the beam glides after the pointer.",
       "meta": {
         "free": true
-      }
+      },
+      "files": [
+        {
+          "path": "components/textures/beam.tsx",
+          "type": "registry:file",
+          "target": "components/textures/beam.tsx"
+        }
+      ]
     },
     {
       "name": "cells",
@@ -56,7 +91,14 @@
       "description": "A grid of cells, each with a small square. Near the pointer the squares swell to fill their cells in a soft dome, trailing it; they shrink back when it leaves.",
       "meta": {
         "free": true
-      }
+      },
+      "files": [
+        {
+          "path": "components/textures/cells.tsx",
+          "type": "registry:file",
+          "target": "components/textures/cells.tsx"
+        }
+      ]
     },
     {
       "name": "warp",
@@ -65,7 +107,14 @@
       "description": "A grid of small rectangular tiles. Near the pointer, columns widen and rows deepen, stretching tiles into squares, bars and dashes.",
       "meta": {
         "free": true
-      }
+      },
+      "files": [
+        {
+          "path": "components/textures/warp.tsx",
+          "type": "registry:file",
+          "target": "components/textures/warp.tsx"
+        }
+      ]
     },
     {
       "name": "blinds",
@@ -74,7 +123,14 @@
       "description": "Twenty-seven thin lines. The pointer twists them up: each is a ribbon turning about its centre, opening to a full stripe under the cursor, the white opening as tapered spindles. Curtain, inverted.",
       "meta": {
         "free": true
-      }
+      },
+      "files": [
+        {
+          "path": "components/textures/blinds.tsx",
+          "type": "registry:file",
+          "target": "components/textures/blinds.tsx"
+        }
+      ]
     },
     {
       "name": "pillars",
@@ -83,7 +139,14 @@
       "description": "A field of white-capped cylinders, row behind row. Under the pointer they rise in a smoothed pyramid, most beneath it and less around, bodies showing between the caps, and settle back as it moves on.",
       "meta": {
         "free": true
-      }
+      },
+      "files": [
+        {
+          "path": "components/textures/pillars.tsx",
+          "type": "registry:file",
+          "target": "components/textures/pillars.tsx"
+        }
+      ]
     },
     {
       "name": "pinch",
@@ -92,7 +155,14 @@
       "description": "A grid of cells, each filled by its square. Near the pointer the squares shrink to the smallest unit in a soft dome, trailing it; they fill their cells again when it leaves. Cells, inverted.",
       "meta": {
         "free": true
-      }
+      },
+      "files": [
+        {
+          "path": "components/textures/pinch.tsx",
+          "type": "registry:file",
+          "target": "components/textures/pinch.tsx"
+        }
+      ]
     },
     {
       "name": "twist",
@@ -101,7 +171,14 @@
       "description": "A field of cells, each with a thin upright bar. Every bar turns to point at the pointer; fat when the cursor lies along its row or column, thin on the diagonals: a cross with a twist in each quadrant.",
       "meta": {
         "free": true
-      }
+      },
+      "files": [
+        {
+          "path": "components/textures/twist.tsx",
+          "type": "registry:file",
+          "target": "components/textures/twist.tsx"
+        }
+      ]
     },
     {
       "name": "watch",
@@ -110,7 +187,14 @@
       "description": "A grid of dim round cells, each holding a small dot. Under the pointer the dots fill their cells, most at the cursor and less with distance, and every dot turns toward it: a field of eyes.",
       "meta": {
         "free": true
-      }
+      },
+      "files": [
+        {
+          "path": "components/textures/watch.tsx",
+          "type": "registry:file",
+          "target": "components/textures/watch.tsx"
+        }
+      ]
     }
   ]
 }
